@@ -1,7 +1,9 @@
+import { useState, useEffect } from "react";
 import styled from "styled-components";
 import Logo from "./Logo";
 import NavItem from "./NavItem";
 import NavIcons from "./NavIcons";
+import FreeShipping from "./FreeShipping";
 
 const NavbarStyle = styled.nav`
   background-color: white;
@@ -13,12 +15,21 @@ const NavbarStyle = styled.nav`
 `;
 
 function Navbar() {
+  const [showFreeShipping, setShowFreeShipping] = useState(false);
+
+  useEffect(function () {
+    setShowFreeShipping(true);
+  }, []);
+
   return (
-    <NavbarStyle>
-      <Logo />
-      <NavItem />
-      <NavIcons />
-    </NavbarStyle>
+    <>
+      {showFreeShipping && <FreeShipping />}
+      <NavbarStyle>
+        <Logo />
+        <NavItem />
+        <NavIcons />
+      </NavbarStyle>
+    </>
   );
 }
 
