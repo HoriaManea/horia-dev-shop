@@ -2,17 +2,17 @@ import styled from "styled-components";
 import Item from "./Item";
 
 const navItems = [
-  { name: "BEST SELLERS" },
-  { name: "NEW" },
-  { name: "DENIM" },
-  { name: "SHORTS" },
-  { name: "BOTTOMS" },
-  { name: "TOPS" },
-  { name: "EVERY DAY BASICS" },
-  { name: "OUTWEAR" },
-  { name: "ACCESSORIES" },
-  { name: "SALE" },
-  { name: "COMING SOON" },
+  { name: "BEST SELLERS", path: "/best-sellers" },
+  { name: "NEW", path: "/new" },
+  { name: "DENIM", path: "/denim" },
+  { name: "SHORTS", path: "/shorts" },
+  { name: "BOTTOMS", path: "/bottoms" },
+  { name: "TOPS", path: "/tops" },
+  { name: "EVERY DAY BASICS", path: "/every-day-basics" },
+  { name: "OUTWEAR", path: "/outwear" },
+  { name: "ACCESSORIES", path: "/accessories" },
+  { name: "SALE", path: "/sale" },
+  { name: "COMING SOON", path: "/coming-soon" },
 ];
 
 const ItemsStyle = styled.div`
@@ -26,7 +26,7 @@ function NavItem() {
   return (
     <ItemsStyle>
       {navItems.map((el) => (
-        <Item key={el.nav} name={el.name} />
+        <Item key={el.name} name={el.name} path={el.path} />
       ))}
     </ItemsStyle>
   );

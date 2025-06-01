@@ -1,11 +1,8 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-const ItemStyle = styled.a`
-  font-size: 13px;
-`;
-
-function Item({ name }) {
-  return <ItemStyle>{name}</ItemStyle>;
+function Item({ name, path }) {
+  return <Link to={path}>{name}</Link>;
 }
 
 export default Item;
