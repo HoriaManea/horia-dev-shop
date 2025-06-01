@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Logo from "./Logo";
@@ -15,13 +14,7 @@ const NavbarStyle = styled.nav`
   padding: 1.438rem 2.5rem 1.313rem 2.5rem;
 `;
 
-function Navbar() {
-  const [showFreeShipping, setShowFreeShipping] = useState(false);
-
-  useEffect(function () {
-    setShowFreeShipping(true);
-  }, []);
-
+function Navbar({ showFreeShipping }) {
   return (
     <>
       {showFreeShipping && <FreeShipping />}

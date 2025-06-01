@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 
-function Accessories() {
+function Accessories({ showFreeShipping }) {
   return (
     <>
       <Navbar />

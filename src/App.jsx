@@ -1,4 +1,5 @@
 import "./App.css";
+import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import BestSellers from "./pages/BestSellers";
@@ -14,10 +15,24 @@ import Sale from "./pages/Sale";
 import ComingSoon from "./pages/ComingSoon";
 
 export default function App() {
+  const [showFreeShipping, setShowFreeShipping] = useState(false);
+
+  useEffect(() => {
+    const alreadyShown = localStorage.getItem("freeShippingShown");
+
+    if (!alreadyShown) {
+      setShowFreeShipping(true);
+      localStorage.setItem("freeShippingShown", "true");
+    }
+  }, []);
+
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route
+          path="/"
+          element={<Home showFreeShipping={showFreeShipping} />}
+        />
         <Route path="/best-sellers" element={<BestSellers />} />
         <Route path="/new" element={<New />} />
         <Route path="/denim" element={<Denim />} />

@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar";
 
-function Home() {
+function Home({ showFreeShipping }) {
   return (
     <>
-      <Navbar />
+      <Navbar showFreeShipping={showFreeShipping}   />
     </>
   );
 }
