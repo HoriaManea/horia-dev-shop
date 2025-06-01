@@ -15,6 +15,7 @@
 - Styled Components (6.1.18)
 - "@fortawesome/free-solid-svg-icons": "^6.7.2"
 - "@fortawesome/react-fontawesome": "^0.2.2"
+- "react-router-dom": "^6.30.1"
 
 ## How to run the project
 
