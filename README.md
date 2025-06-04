@@ -6,6 +6,7 @@
 ## Tech Stack
 
 - React.js (19.1.0)
+- Material UI
 - Context API
 - Styled Components (6.1.18)
 - Fake JSON (mock data)
@@ -16,6 +17,7 @@
 - "@fortawesome/free-solid-svg-icons": "^6.7.2"
 - "@fortawesome/react-fontawesome": "^0.2.2"
 - "react-router-dom": "^6.30.1"
+- "locomotive-scroll": "^4.1.4",
 
 ## How to run the project
 
