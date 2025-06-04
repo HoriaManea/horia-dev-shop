@@ -11,7 +11,7 @@ const SortTtemContainer = styled.div`
 `;
 
 const Icon = styled(FontAwesomeIcon)`
-  font-size: 25px;
+  font-size: 22px;
 `;
 
 function SortItems() {

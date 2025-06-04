@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import Spinner from "./Spinner";
 
 const FeaturedProductsStyle = styled.ul`
@@ -59,30 +59,77 @@ const ShopButton = styled.button`
   }
 `;
 
+const PaginationControls = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 1rem;
+`;
+
+const PageButton = styled.button`
+  background: #eee;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  cursor: pointer;
+  &:hover {
+    background: #ddd;
+  }
+  &.active {
+    font-weight: bold;
+    background: #ccc;
+  }
+`;
+
 function Items() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 8;
 
   useEffect(() => {
     fetch("/data/best-sellers-mock-data.json")
       .then((res) => res.json())
       .then((data) => setData(data))
-      .catch((err) => console.error("Eroare la încărcarea JSON-ului:", err));
+      .catch((err) => console.error("Error loading JSON:", err));
   }, []);
 
+  useEffect(() => {
+    setCurrentPage(1); // reset when data is loaded
+  }, [data]);
+
+  const totalPages = Math.ceil(data.length / ITEMS_PER_PAGE);
+
+  const currentItems = useMemo(() => {
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    return data.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  }, [data, currentPage]);
+
+  if (data.length === 0) return <Spinner />;
+
   return (
-    <FeaturedProductsStyle>
-      {data ? (
-        data.map((el) => (
-          <Product key={el.id}>
-            <ProductImage src={el.images[0]} alt={el.name} />
+    <>
+      <FeaturedProductsStyle>
+        {currentItems.map((el, index) => (
+          <Product key={`${el.id}-${index}`}>
+            <ProductImage src={el.images[0]} alt={el.title} />
             <ProductTitle>{el.title}</ProductTitle>
             <ShopButton>{el.price}</ShopButton>
           </Product>
-        ))
-      ) : (
-        <Spinner />
-      )}
-    </FeaturedProductsStyle>
+        ))}
+      </FeaturedProductsStyle>
+
+      <PaginationControls>
+        {Array.from({ length: totalPages }, (_, i) => (
+          <PageButton
+            key={`page-${i + 1}`}
+            onClick={() => setCurrentPage(i + 1)}
+            className={currentPage === i + 1 ? "active" : ""}
+          >
+            {i + 1}
+          </PageButton>
+        ))}
+      </PaginationControls>
+    </>
   );
 }
 
