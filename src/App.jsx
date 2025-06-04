@@ -13,7 +13,7 @@ import Outwear from "./pages/Outwear";
 import Accessories from "./pages/Accessories";
 import Sale from "./pages/Sale";
 import ComingSoon from "./pages/ComingSoon";
-
+import ScrollProvider from "./components/ScrollProvider";
 export default function App() {
   const [showFreeShipping, setShowFreeShipping] = useState(false);
 
@@ -28,23 +28,25 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <Routes>
-        <Route
-          path="/"
-          element={<Home showFreeShipping={showFreeShipping} />}
-        />
-        <Route path="/best-sellers" element={<BestSellers />} />
-        <Route path="/new" element={<New />} />
-        <Route path="/denim" element={<Denim />} />
-        <Route path="/shorts" element={<Shorts />} />
-        <Route path="/bottoms" element={<Bottoms />} />
-        <Route path="/tops" element={<Tops />} />
-        <Route path="/every-day-basics" element={<EveryDayBasics />} />
-        <Route path="/outwear" element={<Outwear />} />
-        <Route path="/accessories" element={<Accessories />} />
-        <Route path="/sale" element={<Sale />} />
-        <Route path="/coming-soon" element={<ComingSoon />} />
-      </Routes>
+      <ScrollProvider>
+        <Routes>
+          <Route
+            path="/"
+            element={<Home showFreeShipping={showFreeShipping} />}
+          />
+          <Route path="/best-sellers" element={<BestSellers />} />
+          <Route path="/new" element={<New />} />
+          <Route path="/denim" element={<Denim />} />
+          <Route path="/shorts" element={<Shorts />} />
+          <Route path="/bottoms" element={<Bottoms />} />
+          <Route path="/tops" element={<Tops />} />
+          <Route path="/every-day-basics" element={<EveryDayBasics />} />
+          <Route path="/outwear" element={<Outwear />} />
+          <Route path="/accessories" element={<Accessories />} />
+          <Route path="/sale" element={<Sale />} />
+          <Route path="/coming-soon" element={<ComingSoon />} />
+        </Routes>
+      </ScrollProvider>
     </BrowserRouter>
   );
 }

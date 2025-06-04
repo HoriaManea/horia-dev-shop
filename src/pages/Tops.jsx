@@ -1,12 +1,8 @@
 import Navbar from "../components/Navbar";
+import Spinner from "../components/Spinner";
 
 function Tops() {
-  return (
-    <>
-      <Navbar />
-      <h1>Tops Page</h1>
-    </>
-  );
+  return <Spinner />;
 }
 
 export default Tops;

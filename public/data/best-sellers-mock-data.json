@@ -1,0 +1,228 @@
+[
+  {
+    "id": 1,
+    "title": "RAVE DOUBLE CARGO PANTS",
+    "price": "130,89 RON",
+    "images": [
+      "/images/best-seller/Rave-Double-Cargo-Pants-Black-2.jpg",
+      "/images/best-seller/Rave-Double-Cargo-Pants-Black-3.jpg",
+      "/images/best-seller/Rave-Double-Cargo-Pants-Black-4.jpg",
+      "/images/best-seller/Rave-Double-Cargo-Pants-Black-5.jpg",
+      "/images/best-seller/Rave-Double-Cargo-Pants-Black-6.jpg",
+      "/images/best-seller/Rave-Double-Cargo-Pants-Black-7.jpg",
+      "/images/best-seller/Rave-Double-Cargo-Pants-Black-8.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "B484 FLARE DENIM",
+    "price": "505 RON",
+
+    "images": [
+      "/images/best-seller/B484-Flare-Denim-Blue-2.jpg",
+      "/images/best-seller/B484-Flare-Denim-Blue-4.jpg",
+      "/images/best-seller/B484-Flare-Denim-Blue-6.jpg",
+      "/images/best-seller/B484-Flare-Denim-Blue-5.jpg",
+      "/images/best-seller/B484-Flare-Denim-Blue-7.jpg",
+      "/images/best-seller/B484-Flare-Denim-Blue-8.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "BAGGY YEAT DENIM",
+    "price": "576 RON",
+
+    "images": [
+      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-2.jpg",
+      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-3.jpg",
+      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-4.jpg",
+      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-5.jpg",
+      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-6.jpg",
+      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-7.jpg",
+      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-8.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "BAGGY RAVE DENIM",
+    "price": "350 RON",
+
+    "images": [
+      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-2_b306b299.jpg",
+      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-3_3642f60b.jpg",
+      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-4_3e9a1ed3.jpg",
+      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-5_4c226572.jpg",
+      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-6_b6926159.jpg",
+      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-7_c734d557.jpg",
+      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-8_d6654a84.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "ULTRA BAGGY CARGO PANTS",
+    "price": "560 RON",
+
+    "images": [
+      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-3.jpg",
+      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-2.jpg",
+      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-4.jpg",
+      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-5.jpg",
+      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-6.jpg",
+      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-7.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "RAVE DOUBLE CARGO PANTS",
+    "price": "630 RON",
+
+    "images": [
+      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-3.jpg",
+      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-2.jpg",
+      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-6.jpg",
+      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-4.jpg",
+      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-5.jpg",
+      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-7.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": " BAGGY LEATHER CARGO PANTS",
+    "price": "275 RON",
+
+    "images": [
+      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-2.jpg",
+      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-3.jpg",
+      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-4.jpg",
+      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-5.jpg",
+      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-6.jpg",
+      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-7.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "ULTRA BAGGY BANDANA DENIM",
+    "price": "670 RON",
+
+    "images": [
+      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
+      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
+      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
+      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
+      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
+      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "D519 ZIPPER FLARE DENIM",
+    "price": "630 RON",
+
+    "images": [
+      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-2.jpg",
+      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-3.jpg",
+      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-4.jpg",
+      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-5.jpg",
+      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-6.jpg",
+      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-7.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "D737 DOWN IN THE DIRT DENIM",
+    "price": "565 RON",
+
+    "images": [
+      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-2.jpg",
+      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-3.jpg",
+      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-4.jpg",
+      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-5.jpg",
+      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-6.jpg",
+      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-7.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "BAGGY STACKED CARGO PANTS",
+    "price": "350  RON",
+
+    "images": [
+      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-2.jpg",
+      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-3.jpg",
+      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-4.jpg",
+      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-5.jpg",
+      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-6.jpg",
+      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-7.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "VOID BAGGY CARGO DENIM",
+    "price": "350 RON",
+
+    "images": [
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-2.jpg",
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-3.jpg",
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-4.jpg",
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-5.jpg",
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-6.jpg",
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-7.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "SIDE CARGO POCKET SWEATPANTS",
+    "price": "415 RON",
+
+    "images": [
+      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-2.jpg",
+      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-3.jpg",
+      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-4.jpg",
+      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-5.jpg",
+      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-6.jpg",
+      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-7.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "BAGGY RAVE DENIM",
+    "price": "565 RON",
+
+    "images": [
+      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-2.jpg",
+      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-3.jpg",
+      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-4.jpg",
+      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-5.jpg",
+      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-6.jpg",
+      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-7.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "VOID BAGGY CARGO DENIM",
+    "price": "587 RON",
+
+    "images": [
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-2.jpg",
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-3.jpg",
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-4.jpg",
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-5.jpg",
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-6.jpg",
+      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-7.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "VOID BAGGY CARGO DENIM",
+    "price": "587 RON",
+
+    "images": [
+      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-2.jpg",
+      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-3.jpg",
+      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-4.jpg",
+      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-5.jpg",
+      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-6.jpg",
+      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-7.jpg"
+    ]
+  }
+]
