@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
+import { Link } from "react-router-dom";
 
 const Sidebar = styled.div`
   position: fixed;
@@ -176,7 +177,9 @@ const CartSidebar = () => {
           ESTIMATED TOTAL (1 ITEM)
         </ItemTitle>
         <ItemTitle style={{ marginBottom: "10px" }}>370,00 lei RON</ItemTitle>
-        <CheckoutButton href="#">CHECK OUT</CheckoutButton>
+        <Link to="/checkout">
+          <CheckoutButton href="#">CHECK OUT</CheckoutButton>
+        </Link>
       </Footer>
     </Sidebar>
   );

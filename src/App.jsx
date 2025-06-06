@@ -16,6 +16,7 @@ import ComingSoon from "./pages/ComingSoon";
 import ScrollProvider from "./components/ScrollProvider";
 import ItemDetalis from "./pages/ItemDetalis";
 import Layout from "./components/Layout";
+import CheckoutPage from "./pages/CheckoutPage";
 
 export default function App() {
   const [showFreeShipping, setShowFreeShipping] = useState(false);
@@ -49,6 +50,7 @@ export default function App() {
           <Route path="/sale" element={<Sale />} />
           <Route path="/coming-soon" element={<ComingSoon />} />
           <Route path="/best-sellers/:id" element={<ItemDetalis />} />
+          <Route path="/checkout" element={<CheckoutPage />} />
         </Routes>
       </ScrollProvider>
     </BrowserRouter>
