@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpWideShort } from "@fortawesome/free-solid-svg-icons";
+import SelectSortMethod from "./SelectSortMethod";
 
 const SortTtemContainer = styled.div`
   display: flex;
@@ -8,18 +9,24 @@ const SortTtemContainer = styled.div`
   gap: 1rem;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 `;
 
 const Icon = styled(FontAwesomeIcon)`
   font-size: 22px;
 `;
 
-function SortItems() {
+function SortItems({ handleSortItems, showSortDropdown, handleSortOption }) {
   return (
-    <SortTtemContainer>
-      <Icon icon={faArrowUpWideShort} />
-      <p>FILTER & SORT</p>
-    </SortTtemContainer>
+    <>
+      <SortTtemContainer onClick={handleSortItems}>
+        <Icon icon={faArrowUpWideShort} />
+        <p>FILTER & SORT</p>
+      </SortTtemContainer>
+      {showSortDropdown && (
+        <SelectSortMethod handleSortOption={handleSortOption} />
+      )}
+    </>
   );
 }
 

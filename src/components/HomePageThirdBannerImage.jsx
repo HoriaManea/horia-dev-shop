@@ -2,7 +2,6 @@ import styled from "styled-components";
 import SectionThreeImage from "../assets/home-photos/section3-iamge.webp";
 import FeaturedProducts from "./FeaturedProducts";
 
-
 const HeroSectionImage = styled.section`
   height: 89.55vh;
   width: 100%;
@@ -55,13 +54,12 @@ const HeroButton = styled.button`
 
 export default function HomePageThirdBannerImage() {
   return (
-    <>
+   
       <HeroSectionImage>
         <HeroContent>
           <HeroTitle>DENIM UPDATED</HeroTitle>
           <HeroButton>explore the collection</HeroButton>
-        </HeroContent>  
+        </HeroContent>
       </HeroSectionImage>
-    </>
   );
 }

@@ -7,6 +7,7 @@ import FreeShipping from "./FreeShipping";
 
 const NavbarStyle = styled.nav`
   background-color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0.1, 0.2);
   height: 5rem;
   display: flex;
   justify-content: space-between;

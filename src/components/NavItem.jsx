@@ -21,7 +21,6 @@ const ItemsStyle = styled.div`
   align-items: center;
   gap: 2rem;
 `;
-
 function NavItem() {
   return (
     <ItemsStyle>

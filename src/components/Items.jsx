@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { useEffect, useState, useMemo } from "react";
 import Spinner from "./Spinner";
+import { Link } from "react-router-dom";
 
 const FeaturedProductsStyle = styled.ul`
   display: flex;
@@ -81,21 +82,18 @@ const PageButton = styled.button`
   }
 `;
 
-function Items() {
-  const [data, setData] = useState([]);
+function Items({ data }) {
   const [currentPage, setCurrentPage] = useState(1);
   const ITEMS_PER_PAGE = 8;
 
   useEffect(() => {
-    fetch("/data/best-sellers-mock-data.json")
-      .then((res) => res.json())
-      .then((data) => setData(data))
-      .catch((err) => console.error("Error loading JSON:", err));
-  }, []);
+    setCurrentPage(1);
+  }, [data]);
 
   useEffect(() => {
-    setCurrentPage(1); // reset when data is loaded
-  }, [data]);
+    // Scroll la începutul paginii cu scroll lin când se schimbă pagina
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [currentPage]);
 
   const totalPages = Math.ceil(data.length / ITEMS_PER_PAGE);
 
@@ -106,23 +104,30 @@ function Items() {
 
   if (data.length === 0) return <Spinner />;
 
+  function handlePageClick(pageNumber) {
+    setCurrentPage(pageNumber);
+  }
+
   return (
     <>
       <FeaturedProductsStyle>
         {currentItems.map((el, index) => (
           <Product key={`${el.id}-${index}`}>
-            <ProductImage src={el.images[0]} alt={el.title} />
+            <Link to={`/best-sellers/${el.id}`}>
+              <ProductImage src={el.images[0]} alt={el.title} />
+            </Link>
             <ProductTitle>{el.title}</ProductTitle>
-            <ShopButton>{el.price}</ShopButton>
+            <Link to={`/best-sellers/${el.id}`}>
+              <ShopButton>{el.price} RON</ShopButton>
+            </Link>
           </Product>
         ))}
       </FeaturedProductsStyle>
-
       <PaginationControls>
         {Array.from({ length: totalPages }, (_, i) => (
           <PageButton
             key={`page-${i + 1}`}
-            onClick={() => setCurrentPage(i + 1)}
+            onClick={() => handlePageClick(i + 1)}
             className={currentPage === i + 1 ? "active" : ""}
           >
             {i + 1}

@@ -5,13 +5,12 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
-
 const NavIconsStyle = styled.div`
   display: flex;
   align-items: center;
   gap: 2rem;
 `;
-
+  
 function NavIcons() {
   return (
     <NavIconsStyle>
