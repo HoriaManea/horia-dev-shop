@@ -678,17 +678,198 @@
   ],
   "shortsProducts": [
     {
-      "id": 16,
-      "title": "ULTRA BAGGY BANDANA DENIM",
-      "price": 670,
+      "id": 47,
+      "title": "DISTRESSED CARGO SHORTS",
+      "price": 555,
 
       "images": [
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+        "/images/shorts/Distressed-Cargo-Shorts-Olive-2_c78e0a17.jpg",
+        "/images/shorts/Distressed-Cargo-Shorts-Olive-3_757ff525.jpg",
+        "/images/shorts/Distressed-Cargo-Shorts-Olive-4_816e55b3.jpg",
+        "/images/shorts/Distressed-Cargo-Shorts-Olive-5_24ab6700.jpg",
+        "/images/shorts/Distressed-Cargo-Shorts-Olive-6_5067b88b.jpg",
+        "/images/shorts/Distressed-Cargo-Shorts-Olive-7_63e78d3c.jpg"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "WEST DOUBLE KNEE SWEATSHORTS",
+      "price": 355,
+
+      "images": [
+        "/images/shorts/West-Double-Knee-Sweatshorts-Blue-2_587e906b.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Blue-3.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Blue-4.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Blue-5.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Blue-6.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Blue-7.jpg"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "BROWN KNEE SWEATSHORTS",
+      "price": 365,
+
+      "images": [
+        "/images/shorts/West-Double-Knee-Sweatshorts-Tan-2_c6d78799.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Tan-3.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Tan-4.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Tan-5.jpg"
+      ]
+    },
+    {
+      "id": 52,
+      "title": "LEATHER POCKET GEO SHORTS",
+      "price": 620,
+
+      "images": [
+        "/images/shorts/Leather-Pocket-Geo-Shorts-Black-2.jpg",
+        "/images/shorts/Leather-Pocket-Geo-Shorts-Black-3.jpg",
+        "/images/shorts/Leather-Pocket-Geo-Shorts-Black-4.jpg",
+        "/images/shorts/Leather-Pocket-Geo-Shorts-Black-5.jpg"
+      ]
+    },
+    {
+      "id": 53,
+      "title": "DISTRESSED CARGO SHORTS",
+      "price": 555,
+
+      "images": [
+        "/images/shorts/Distressed-Cargo-Shorts-Forest-Camo-2_0afd72ed.jpg",
+        "/images/shorts/Distressed-Cargo-Shorts-Forest-Camo-3_e8deb7e6.jpg",
+        "/images/shorts/Distressed-Cargo-Shorts-Forest-Camo-4_74868557.jpg",
+        "/images/shorts/Distressed-Cargo-Shorts-Forest-Camo-4_74868557.jpg"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "EAGLE CARGO SHORTS",
+      "price": 555,
+
+      "images": [
+        "/images/shorts/Distressed-Cargo-Shorts-Desert-Camo-3.jpg",
+        "/images/shorts/Distressed-Cargo-Shorts-Desert-Camo-6.jpg",
+        "/images/shorts/Distressed-Cargo-Shorts-Desert-Camo-4.jpg",
+        "/images/shorts/Distressed-Cargo-Shorts-Desert-Camo-5.jpg"
+      ]
+    },
+    {
+      "id": 55,
+      "title": "BAGGY RIP DENIM SHORTS",
+      "price": 495,
+
+      "images": [
+        "/images/shorts/Baggy-Rip-Denim-Shorts-Vintage-Blue-2.jpg",
+        "/images/shorts/Baggy-Rip-Denim-Shorts-Vintage-Blue-3.jpg",
+        "/images/shorts/Baggy-Rip-Denim-Shorts-Vintage-Blue-4.jpg",
+        "/images/shorts/Baggy-Rip-Denim-Shorts-Vintage-Blue-5.jpg"
+      ]
+    },
+    {
+      "id": 56,
+      "title": "WEST DOUBLE KNEE SWEATSHORTS",
+      "price": 365,
+
+      "images": [
+        "/images/shorts/West-Double-Knee-Sweatshorts-Washed-Black-2_6bfcba5d.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Washed-Black-3.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Washed-Black-4.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Washed-Black-5.jpg"
+      ]
+    },
+    {
+      "id": 57,
+      "title": "PURPLE KNEE SWEATSHORTS",
+      "price": 365,
+
+      "images": [
+        "/images/shorts/West-Double-Knee-Sweatshorts-Purple-2.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Purple-3.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Purple-4.jpg",
+        "/images/shorts/West-Double-Knee-Sweatshorts-Purple-5.jpg"
+      ]
+    },
+    {
+      "id": 58,
+      "title": "ALL OVER BUTTON SHORTS",
+      "price": 430,
+
+      "images": [
+        "/images/shorts/All-Over-Button-Shorts-Black-2.jpg",
+        "/images/shorts/All-Over-Button-Shorts-Black-3.jpg",
+        "/images/shorts/All-Over-Button-Shorts-Black-4.jpg",
+        "/images/shorts/All-Over-Button-Shorts-Black-5.jpg"
+      ]
+    },
+    {
+      "id": 59,
+      "title": "MOJAVE CANVAS SHORTS",
+      "price": 430,
+
+      "images": [
+        "/images/shorts/Mojave-Canvas-Shorts-Olive-3.jpg",
+        "/images/shorts/Mojave-Canvas-Shorts-Olive-4.jpg",
+        "/images/shorts/Mojave-Canvas-Shorts-Olive-5.jpg"
+      ]
+    },
+    {
+      "id": 60,
+      "title": "MOJAVE WHITE SHORTS",
+      "price": 430,
+
+      "images": [
+        "/images/shorts/Mojave-Canvas-Shorts-Off-White-3.jpg",
+        "/images/shorts/Mojave-Canvas-Shorts-Off-White-4.jpg",
+        "/images/shorts/Mojave-Canvas-Shorts-Off-White-5.jpg",
+        "/images/shorts/Mojave-Canvas-Shorts-Off-White-6.jpg"
+      ]
+    },
+    {
+      "id": 61,
+      "title": "MOJAVE BROWN SHORTS",
+      "price": 430,
+
+      "images": [
+        "/images/shorts/Mojave-Canvas-Shorts-Tan-3.jpg",
+        "/images/shorts/Mojave-Canvas-Shorts-Tan-4.jpg",
+        "/images/shorts/Mojave-Canvas-Shorts-Tan-5.jpg",
+        "/images/shorts/Mojave-Canvas-Shorts-Tan-6.jpg"
+      ]
+    },
+    {
+      "id": 62,
+      "title": "ULTRA BAGGY CARPENTER SHORTS",
+      "price": 555,
+
+      "images": [
+        "/images/shorts/Ultra-Baggy-Carpenter-Shorts-Washed-Blue-2_44e0a5c3.jpg",
+        "/images/shorts/Ultra-Baggy-Carpenter-Shorts-Washed-Blue-5.jpg",
+        "/images/shorts/Ultra-Baggy-Carpenter-Shorts-Washed-Blue-4.jpg",
+        "/images/shorts/Ultra-Baggy-Carpenter-Shorts-Washed-Blue-3.jpg"
+      ]
+    },
+    {
+      "id": 63,
+      "title": "TRICOT STRIPED SWEATSHORTS",
+      "price": 355,
+
+      "images": [
+        "/images/shorts/Tricot-Striped-Sweatshorts-Tan-3.jpg",
+        "/images/shorts/Tricot-Striped-Sweatshorts-Tan-4.jpg",
+        "/images/shorts/Tricot-Striped-Sweatshorts-Tan-5.jpg",
+        "/images/shorts/Tricot-Striped-Sweatshorts-Tan-6.jpg"
+      ]
+    },
+    {
+      "id": 64,
+      "title": "BAGGY CUT OFF DENIM SHORTS",
+      "price": 495,
+
+      "images": [
+        "/images/shorts/Baggy-Cut-Off-Denim-Shorts-Light-Blue-2.jpg",
+        "/images/shorts/Baggy-Cut-Off-Denim-Shorts-Light-Blue-3.jpg",
+        "/images/shorts/Baggy-Cut-Off-Denim-Shorts-Light-Blue-4.jpg",
+        "/images/shorts/Baggy-Cut-Off-Denim-Shorts-Light-Blue-5.jpg"
       ]
     }
   ],
