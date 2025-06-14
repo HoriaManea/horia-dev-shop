@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
+import { ProductsContext } from "../context/ProuctsContext";
 import { Link } from "react-router-dom";
 
 const Sidebar = styled.div`
@@ -121,9 +121,12 @@ const CheckoutButton = styled.a`
   margin-top: 10px;
 `;
 
-const CartSidebar = () => {
-  const { showCart, handleShowCart } = useContext(CartContext);
-
+const CartSidebar = ({
+  handleShowCart,
+  cartProducts,
+  handleClearCart,
+  totalPrice,
+}) => {
   return (
     <Sidebar>
       <Header>
@@ -131,32 +134,31 @@ const CartSidebar = () => {
         <CloseButton onClick={handleShowCart}>&times;</CloseButton>
       </Header>
 
-      <Item>
-        <ItemImage
-          src="https://cdn.shopify.com/s/files/1/0257/6083/8997/products/Khaki_1.jpg?v=1711740385"
-          alt="Product"
-        />
-        <ItemDetails>
-          <ItemTitle>CROPPED BOXY STRIPED S/S SHIRT</ItemTitle>
-          <ItemOptions>
-            khaki
-            <br />
-            size: S
-          </ItemOptions>
+      {cartProducts.map((el) => (
+        <Item key={el.id}>
+          <ItemImage src={el.images[0]} alt={el.title} />
+          <ItemDetails>
+            <ItemTitle>
+              {el.quantity} X {el.title}
+            </ItemTitle>
+            <QuantityControl></QuantityControl>
 
-          <QuantityControl>
-            <QuantityButton>-</QuantityButton>
-            <span>1</span>
-            <QuantityButton>+</QuantityButton>
-          </QuantityControl>
+            <QuantityControl>
+              <QuantityButton>-</QuantityButton>
+              <span>1</span>
+              <QuantityButton>+</QuantityButton>
+            </QuantityControl>
 
-          <ItemPrice>370,00 lei RON</ItemPrice>
+            <ItemPrice>{el.price} RON</ItemPrice>
 
-          <SmallText>Remove | Save for later</SmallText>
-        </ItemDetails>
-      </Item>
+            <SmallText onClick={handleClearCart}>
+              Remove | Save for later
+            </SmallText>
+          </ItemDetails>
+        </Item>
+      ))}
 
-      <FrequentlyBought>
+      {/* <FrequentlyBought>
         <FrequentlyBoughtTitle>
           FREQUENTLY BOUGHT TOGETHER
         </FrequentlyBoughtTitle>
@@ -170,16 +172,17 @@ const CartSidebar = () => {
             alt="Blue Stripe Shirt"
           />
         </FrequentlyBoughtImages>
-      </FrequentlyBought>
+      </FrequentlyBought> */}
 
       <Footer>
         <ItemTitle style={{ marginBottom: "10px" }}>
           ESTIMATED TOTAL (1 ITEM)
         </ItemTitle>
-        <ItemTitle style={{ marginBottom: "10px" }}>370,00 lei RON</ItemTitle>
+        <ItemTitle style={{ marginBottom: "10px" }}>{totalPrice}</ItemTitle>
         <Link to="/checkout">
           <CheckoutButton href="#">CHECK OUT</CheckoutButton>
         </Link>
+        <CheckoutButton onClick={handleClearCart}>Remove Items</CheckoutButton>
       </Footer>
     </Sidebar>
   );

@@ -3,6 +3,7 @@ import { useEffect, useState, useContext } from "react";
 import { CartContext } from "../context/CartContext";
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
+import { ProductsContext } from "../context/ProuctsContext";
 import CartSidebar from "../components/CartSidebar";
 
 export const Container = styled.div`
@@ -106,27 +107,58 @@ export const Description = styled.p`
 `;
 
 function ItemDetails() {
-  const [data, setData] = useState(null);
-  const [selectedImage, setSelectedImage] = useState(null);
   const { id } = useParams();
   const { showCart, handleShowCart } = useContext(CartContext);
+  const { data: productsData } = useContext(ProductsContext);
+
+  const [product, setProduct] = useState(null);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const [cartProducts, setCartProducts] = useState(() => {
+    const storedCart = localStorage.getItem("cartProducts");
+    return storedCart ? JSON.parse(storedCart) : [];
+  });
+
+  const totalPrice = cartProducts.reduce((acc, item) => {
+    return acc + item.price * (item.quantity || 1);
+  }, 0);
 
   useEffect(() => {
-    fetch(`/data/best-sellers-mock-data.json`)
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data);
-        const item = data.find((el) => el.id === Number(id));
-        if (item) setSelectedImage(item.images[0]);
-      })
-      .catch((err) => console.error("Fetch error:", err));
-  }, [id]);
+    if (productsData && productsData.bestSeller) {
+      const foundProduct = productsData.bestSeller.find(
+        (p) => p.id === Number(id)
+      );
+      setProduct(foundProduct);
+      if (foundProduct) setSelectedImage(foundProduct.images[0]);
+    }
+  }, [id, productsData]);
 
-  if (!data) return <div>Loading...</div>;
-  if (!Array.isArray(data)) return <div>Data is invalid</div>;
+  if (!product) return <div>Loading...</div>;
 
-  const item = data.find((el) => el.id === Number(id));
-  if (!item) return <div>Item not found</div>;
+  function handleAddToCart() {
+    const storedCart = localStorage.getItem("cartProducts");
+    const cart = storedCart ? JSON.parse(storedCart) : [];
+
+    const existingProductIndex = cart.findIndex(
+      (item) => item.id === product.id
+    );
+
+    if (existingProductIndex !== -1) {
+      cart[existingProductIndex].quantity =
+        (cart[existingProductIndex].quantity || 1) + 1;
+    } else {
+      cart.push({ ...product, quantity: 1 });
+    }
+
+    localStorage.setItem("cartProducts", JSON.stringify(cart));
+
+    setCartProducts(cart);
+  }
+
+  function handleClearCart() {
+    setCartProducts([]);
+    localStorage.removeItem("cartProducts");
+  }
 
   return (
     <>
@@ -134,35 +166,49 @@ function ItemDetails() {
       <Container>
         <LeftColumn>
           <Thumbnails>
-            {item.images.map((el, index) => (
+            {product.images.map((img, i) => (
               <Thumb
-                key={index}
-                src={el}
-                alt={`thumb-${index}`}
-                onClick={() => setSelectedImage(el)}
-                className={selectedImage === el ? "active" : ""}
+                key={i}
+                src={img}
+                alt={`thumb-${i}`}
+                onClick={() => setSelectedImage(img)}
+                className={selectedImage === img ? "active" : ""}
               />
             ))}
           </Thumbnails>
           <MainImageWrapper>
-            <MainImage src={selectedImage} alt={item.title} />
+            <MainImage src={selectedImage} alt={product.title} />
           </MainImageWrapper>
         </LeftColumn>
 
         <RightColumn>
-          <Title>{item.title}</Title>
+          <Title>{product.title}</Title>
           <Sizes>
-            <SizeBtn>S</SizeBtn>
-            <SizeBtn>M</SizeBtn>
+            {/* <SizeBtn>S</SizeBtn> */}
+            {/* <SizeBtn>M</SizeBtn> */}
             <SizeBtn>L</SizeBtn>
-            <SizeBtn>XL</SizeBtn>
-            <SizeBtn>XXL</SizeBtn>
+            {/* <SizeBtn>XL</SizeBtn>
+            <SizeBtn>XXL</SizeBtn> */}
           </Sizes>
-          <Price>Price: {item.price} RON</Price>
-          <AddToBagBtn onClick={handleShowCart}>ADD TO BAG</AddToBagBtn>
-          <Description>{item.description}</Description>
+          <Price>Price: {product.price} RON</Price>
+          <AddToBagBtn
+            onClick={() => {
+              handleAddToCart();
+              handleShowCart();
+            }}
+          >
+            ADD TO BAG
+          </AddToBagBtn>
+          <Description>{product.description}</Description>
         </RightColumn>
-        {showCart && <CartSidebar />}
+        {showCart && (
+          <CartSidebar
+            cartProducts={cartProducts}
+            handleShowCart={handleShowCart}
+            handleClearCart={handleClearCart}
+            totalPrice={totalPrice}
+          />
+        )}
       </Container>
     </>
   );

@@ -1,15 +1,21 @@
-import { useState, useEffect, useContext } from "react";
+import { useState, useEffect, useContext, useMemo } from "react";
 import { ProductsContext } from "../context/ProuctsContext";
 import Navbar from "../components/Navbar";
 import SortItems from "../components/SortItems";
 import Items from "../components/Items";
 import MotionWrapper from "../components/MotionWrapper";
 import Wrapper from "../components/Wrapper";
+import Footer from "../components/Footer";
 
 export default function BestSellers() {
   const [sortOption, setSortOption] = useState("");
   const [showSortDropdown, setShowSortDropdown] = useState(false);
   const { data, originalData, setData } = useContext(ProductsContext);
+
+  const bestSellers = useMemo(() => {
+    if (!data || !Array.isArray(data.bestSeller)) return [];
+    return data.bestSeller;
+  }, [data]);
 
   useEffect(() => {
     if (!sortOption) {
@@ -32,7 +38,7 @@ export default function BestSellers() {
   }
 
   function handleSortOption(e) {
-    setSortOption(e.target.value); // ✅ actualizează opțiunea selectată
+    setSortOption(e.target.value);
   }
 
   return (
@@ -40,10 +46,7 @@ export default function BestSellers() {
       initial={{ opacity: 0, filter: "blur(5px)", translateZ: 0 }}
       animate={{ opacity: 1, filter: "blur(0px)", translateZ: 0 }}
       exit={{ opacity: 0, filter: "blur(5px)", translateZ: 0 }}
-      transition={{
-        duration: 1,
-        ease: [0.4, 0, 0.2, 1],
-      }}
+      transition={{ duration: 1, ease: [0.4, 0, 0.2, 1] }}
     >
       <>
         <Navbar />
@@ -53,9 +56,10 @@ export default function BestSellers() {
             handleSortItems={handleSortItems}
             handleSortOption={handleSortOption}
           />
-          <Items data={data} setData={setData} />
+          <Items data={bestSellers} />
         </Wrapper>
       </>
+      <Footer />
     </MotionWrapper>
   );
 }

@@ -1,229 +1,807 @@
-[
-  {
-    "id": 1,
-    "title": "ULTRA BAGGY BANDANA DENIM",
-    "price": 670,
+{
+  "bestSeller": [
+    {
+      "id": 1,
+      "title": "ULTRA BAGGY BANDANA DENIM",
+      "price": 670,
 
-    "images": [
-      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
-      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
-      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
-      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
-      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
-      "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
-    ]
-  },
-  {
-    "id": 2,
-    "title": "B484 FLARE DENIM",
-    "price": 505,
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "B484 FLARE DENIM",
+      "price": 505,
 
-    "images": [
-      "/images/best-seller/B484-Flare-Denim-Blue-2.jpg",
-      "/images/best-seller/B484-Flare-Denim-Blue-4.jpg",
-      "/images/best-seller/B484-Flare-Denim-Blue-6.jpg",
-      "/images/best-seller/B484-Flare-Denim-Blue-5.jpg",
-      "/images/best-seller/B484-Flare-Denim-Blue-7.jpg",
-      "/images/best-seller/B484-Flare-Denim-Blue-8.jpg"
-    ]
-  },
-  {
-    "id": 3,
-    "title": "BAGGY YEAT DENIM",
-    "price": 576,
+      "images": [
+        "/images/best-seller/B484-Flare-Denim-Blue-2.jpg",
+        "/images/best-seller/B484-Flare-Denim-Blue-4.jpg",
+        "/images/best-seller/B484-Flare-Denim-Blue-6.jpg",
+        "/images/best-seller/B484-Flare-Denim-Blue-5.jpg",
+        "/images/best-seller/B484-Flare-Denim-Blue-7.jpg",
+        "/images/best-seller/B484-Flare-Denim-Blue-8.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "BAGGY YEAT DENIM",
+      "price": 576,
 
-    "images": [
-      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-2.jpg",
-      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-3.jpg",
-      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-4.jpg",
-      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-5.jpg",
-      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-6.jpg",
-      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-7.jpg",
-      "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-8.jpg"
-    ]
-  },
-  {
-    "id": 4,
-    "title": "BAGGY RAVE DENIM",
-    "price": 350,
+      "images": [
+        "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-2.jpg",
+        "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-3.jpg",
+        "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-4.jpg",
+        "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-5.jpg",
+        "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-6.jpg",
+        "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-7.jpg",
+        "/images/best-seller/D519-Leather-Zipper-Flare-Pants-Black-8.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BAGGY RAVE DENIM",
+      "price": 350,
 
-    "images": [
-      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-2_b306b299.jpg",
-      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-3_3642f60b.jpg",
-      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-4_3e9a1ed3.jpg",
-      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-5_4c226572.jpg",
-      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-6_b6926159.jpg",
-      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-7_c734d557.jpg",
-      "/images/best-seller/Baggy-Rave-Denim-Light-Blue-8_d6654a84.jpg"
-    ]
-  },
-  {
-    "id": 5,
-    "title": "ULTRA BAGGY CARGO PANTS",
-    "price": 560,
+      "images": [
+        "/images/best-seller/Baggy-Rave-Denim-Light-Blue-2_b306b299.jpg",
+        "/images/best-seller/Baggy-Rave-Denim-Light-Blue-3_3642f60b.jpg",
+        "/images/best-seller/Baggy-Rave-Denim-Light-Blue-4_3e9a1ed3.jpg",
+        "/images/best-seller/Baggy-Rave-Denim-Light-Blue-5_4c226572.jpg",
+        "/images/best-seller/Baggy-Rave-Denim-Light-Blue-6_b6926159.jpg",
+        "/images/best-seller/Baggy-Rave-Denim-Light-Blue-7_c734d557.jpg",
+        "/images/best-seller/Baggy-Rave-Denim-Light-Blue-8_d6654a84.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "ULTRA BAGGY CARGO PANTS",
+      "price": 560,
 
-    "images": [
-      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-3.jpg",
-      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-2.jpg",
-      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-4.jpg",
-      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-5.jpg",
-      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-6.jpg",
-      "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-7.jpg"
-    ]
-  },
-  {
-    "id": 6,
-    "title": "RAVE DOUBLE CARGO PANTS",
-    "price": 630,
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Cargo-Pants-Desert-Camo-7.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "RAVE DOUBLE CARGO PANTS",
+      "price": 630,
 
-    "images": [
-      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-3.jpg",
-      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-2.jpg",
-      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-6.jpg",
-      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-4.jpg",
-      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-5.jpg",
-      "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-7.jpg"
-    ]
-  },
-  {
-    "id": 7,
-    "title": " BAGGY LEATHER CARGO PANTS",
-    "price": 275,
+      "images": [
+        "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-3.jpg",
+        "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-2.jpg",
+        "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-6.jpg",
+        "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-4.jpg",
+        "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-5.jpg",
+        "/images/best-seller/Rave-Double-Cargo-Pants-Dusty-Brown-7.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": " BAGGY LEATHER CARGO PANTS",
+      "price": 275,
 
-    "images": [
-      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-2.jpg",
-      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-3.jpg",
-      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-4.jpg",
-      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-5.jpg",
-      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-6.jpg",
-      "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-7.jpg"
-    ]
-  },
-  {
-    "id": 8,
-    "title": "RAVE DOUBLE CARGO PANTS",
-    "price": 130.89,
-    "images": [
-      "/images/best-seller/Rave-Double-Cargo-Pants-Black-2.jpg",
-      "/images/best-seller/Rave-Double-Cargo-Pants-Black-3.jpg",
-      "/images/best-seller/Rave-Double-Cargo-Pants-Black-4.jpg",
-      "/images/best-seller/Rave-Double-Cargo-Pants-Black-5.jpg",
-      "/images/best-seller/Rave-Double-Cargo-Pants-Black-6.jpg",
-      "/images/best-seller/Rave-Double-Cargo-Pants-Black-7.jpg",
-      "/images/best-seller/Rave-Double-Cargo-Pants-Black-8.jpg"
-    ]
-  },
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Leather-Cargo-Pants-Black-7.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "RAVE DOUBLE CARGO PANTS",
+      "price": 130.89,
+      "images": [
+        "/images/best-seller/Rave-Double-Cargo-Pants-Black-2.jpg",
+        "/images/best-seller/Rave-Double-Cargo-Pants-Black-3.jpg",
+        "/images/best-seller/Rave-Double-Cargo-Pants-Black-4.jpg",
+        "/images/best-seller/Rave-Double-Cargo-Pants-Black-5.jpg",
+        "/images/best-seller/Rave-Double-Cargo-Pants-Black-6.jpg",
+        "/images/best-seller/Rave-Double-Cargo-Pants-Black-7.jpg",
+        "/images/best-seller/Rave-Double-Cargo-Pants-Black-8.jpg"
+      ]
+    },
 
-  {
-    "id": 9,
-    "title": "D519 ZIPPER FLARE DENIM",
-    "price": 630,
+    {
+      "id": 9,
+      "title": "D519 ZIPPER FLARE DENIM",
+      "price": 630,
 
-    "images": [
-      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-2.jpg",
-      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-3.jpg",
-      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-4.jpg",
-      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-5.jpg",
-      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-6.jpg",
-      "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-7.jpg"
-    ]
-  },
-  {
-    "id": 10,
-    "title": "D737 DOWN IN THE DIRT DENIM",
-    "price": 565,
+      "images": [
+        "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-2.jpg",
+        "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-3.jpg",
+        "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-4.jpg",
+        "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-5.jpg",
+        "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-6.jpg",
+        "/images/best-seller/D519-Zipper-Flare-Denim-Vintage-Blue-7.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "D737 DOWN IN THE DIRT DENIM",
+      "price": 565,
 
-    "images": [
-      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-2.jpg",
-      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-3.jpg",
-      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-4.jpg",
-      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-5.jpg",
-      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-6.jpg",
-      "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-7.jpg"
-    ]
-  },
-  {
-    "id": 11,
-    "title": "BAGGY STACKED CARGO PANTS",
-    "price": 350,
+      "images": [
+        "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-2.jpg",
+        "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-3.jpg",
+        "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-4.jpg",
+        "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-5.jpg",
+        "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-6.jpg",
+        "/images/best-seller/D737-Down-in-the-Dirt-Denim-Blue-7.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "BAGGY STACKED CARGO PANTS",
+      "price": 350,
 
-    "images": [
-      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-2.jpg",
-      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-3.jpg",
-      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-4.jpg",
-      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-5.jpg",
-      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-6.jpg",
-      "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-7.jpg"
-    ]
-  },
-  {
-    "id": 12,
-    "title": "VOID BAGGY CARGO DENIM",
-    "price": 350,
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Stacked-Cargo-Pants-Vintage-Blue-7.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "VOID BAGGY CARGO DENIM",
+      "price": 350,
 
-    "images": [
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-2.jpg",
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-3.jpg",
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-4.jpg",
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-5.jpg",
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-6.jpg",
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-7.jpg"
-    ]
-  },
-  {
-    "id": 13,
-    "title": "SIDE CARGO POCKET SWEATPANTS",
-    "price": 415,
+      "images": [
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-2.jpg",
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-3.jpg",
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-4.jpg",
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-5.jpg",
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-6.jpg",
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Grass-Camo-7.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "SIDE CARGO POCKET SWEATPANTS",
+      "price": 415,
 
-    "images": [
-      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-2.jpg",
-      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-3.jpg",
-      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-4.jpg",
-      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-5.jpg",
-      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-6.jpg",
-      "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-7.jpg"
-    ]
-  },
-  {
-    "id": 14,
-    "title": "BAGGY RAVE DENIM",
-    "price": 565,
+      "images": [
+        "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-2.jpg",
+        "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-3.jpg",
+        "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-4.jpg",
+        "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-5.jpg",
+        "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-6.jpg",
+        "/images/best-seller/Side-Cargo-Pocket-Sweatpants-Off-White-7.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "BAGGY RAVE DENIM",
+      "price": 565,
 
-    "images": [
-      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-2.jpg",
-      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-3.jpg",
-      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-4.jpg",
-      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-5.jpg",
-      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-6.jpg",
-      "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-7.jpg"
-    ]
-  },
-  {
-    "id": 15,
-    "title": "VOID BAGGY CARGO DENIM",
-    "price": 587,
+      "images": [
+        "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-2.jpg",
+        "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-3.jpg",
+        "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-4.jpg",
+        "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-5.jpg",
+        "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-6.jpg",
+        "/images/best-seller/Baggy-Rave-Denim-Vintage-Black-7.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "VOID BAGGY CARGO DENIM",
+      "price": 587,
 
-    "images": [
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-2.jpg",
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-3.jpg",
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-4.jpg",
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-5.jpg",
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-6.jpg",
-      "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-7.jpg"
-    ]
-  },
-  {
-    "id": 15,
-    "title": "VOID BAGGY CARGO DENIM",
-    "price": 587,
+      "images": [
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-2.jpg",
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-3.jpg",
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-4.jpg",
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-5.jpg",
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-6.jpg",
+        "/images/best-seller/Void-Baggy-Cargo-Denim-Washed-Blackk-7.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "VOID BAGGY CARGO DENIM",
+      "price": 587,
 
-    "images": [
-      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-2.jpg",
-      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-3.jpg",
-      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-4.jpg",
-      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-5.jpg",
-      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-6.jpg",
-      "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-7.jpg"
-    ]
-  }
-]
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Sedated-MX-Pants-Pink-7.jpg"
+      ]
+    }
+  ],
+  "newProducts": [
+    {
+      "id": 16,
+      "title": "COWBOY PRINT TRUCKER JACKET",
+      "price": 500,
+
+      "images": [
+        "/images/new/Cowboy-Print-Trucker-Jacket-Multi-2_d39e84d7.jpg",
+        "/images/new/Cowboy-Print-Trucker-Jacket-Multi-3_f3775195.jpg",
+        "/images/new/Cowboy-Print-Trucker-Jacket-Multi-4_9c5b06e8.jpg",
+        "/images/new/Cowboy-Print-Trucker-Jacket-Multi-5_cfa26726.jpg",
+        "/images/new/Cowboy-Print-Trucker-Jacket-Multi-6_b5b87edb.jpg",
+        "/images/new/Cowboy-Print-Trucker-Jacket-Multi-7_b2b3b3e1.jpg",
+        "/images/new/Cowboy-Print-Trucker-Jacket-Multi-8_7b1a9222.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "UNSTABLE MOTO SHIRT",
+      "price": 375,
+
+      "images": [
+        "/images/new/Unstable-Moto-Shirt-Orange-Multi-2.jpg",
+        "/images/new/Unstable-Moto-Shirt-Orange-Multi-3.jpg",
+        "/images/new/Unstable-Moto-Shirt-Orange-Multi-4.jpg",
+        "/images/new/Unstable-Moto-Shirt-Orange-Multi-5.jpg",
+        "/images/new/Unstable-Moto-Shirt-Orange-Multi-6.jpg",
+        "/images/new/Unstable-Moto-Shirt-Orange-Multi-7.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "UNDERWORLD MOTO SHIRT",
+      "price": 425,
+
+      "images": [
+        "/images/new/Underworld-Moto-Shirt-Multi-2.jpg",
+        "/images/new/Underworld-Moto-Shirt-Multi-3.jpg",
+        "/images/new/Underworld-Moto-Shirt-Multi-4.jpg",
+        "/images/new/Underworld-Moto-Shirt-Multi-5.jpg",
+        "/images/new/Underworld-Moto-Shirt-Multi-6.jpg",
+        "/images/new/Underworld-Moto-Shirt-Multi-7.jpg"
+      ]
+    },
+
+    {
+      "id": 18,
+      "title": "STUDDED CAMO JACKET",
+      "price": 615,
+
+      "images": [
+        "/images/new/Studded-Camo-Jacket-Camo-2.jpg",
+        "/images/new/Studded-Camo-Jacket-Camo-3.jpg",
+        "/images/new/Studded-Camo-Jacket-Camo-4.jpg",
+        "/images/new/Studded-Camo-Jacket-Camo-5.jpg",
+        "/images/new/Studded-Camo-Jacket-Camo-6.jpg",
+        "/images/new/Studded-Camo-Jacket-Camo-7.jpg"
+      ]
+    },
+
+    {
+      "id": 19,
+      "title": "SANTEE ALLEY ZIP UP HOODIE",
+      "price": 375,
+
+      "images": [
+        "/images/new/Santee-Alley-Zip-Up-Hoodie-Pink-2_c6718c15.jpg",
+        "/images/new/Santee-Alley-Zip-Up-Hoodie-Pink-3_16473487.jpg",
+        "/images/new/Santee-Alley-Zip-Up-Hoodie-Pink-4_6195b2a0.jpg",
+        "/images/new/Santee-Alley-Zip-Up-Hoodie-Pink-5_77d768bb.jpg",
+        "/images/new/Santee-Alley-Zip-Up-Hoodie-Pink-6_d5f57772.jpg",
+        "/images/new/Santee-Alley-Zip-Up-Hoodie-Pink-7_59d83e64.jpg"
+      ]
+    },
+
+    {
+      "id": 20,
+      "title": "BLOWOUT RAVE DENIM",
+      "price": 565,
+
+      "images": [
+        "/images/new/Blowout-Rave-Denim-Vintage-Black-2_00e1e34f.jpg",
+        "/images/new/Blowout-Rave-Denim-Vintage-Black-3_4bb14e0d.jpg",
+        "/images/new/Blowout-Rave-Denim-Vintage-Black-4_a65a00d5.jpg",
+        "/images/new/Blowout-Rave-Denim-Vintage-Black-5_1b2454fa.jpg",
+        "/images/new/Blowout-Rave-Denim-Vintage-Black-6_00c3e520.jpg",
+        "/images/new/Blowout-Rave-Denim-Vintage-Black-7_4f8f3c02.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "MOTO DENIM JACKET",
+      "price": 605,
+
+      "images": [
+        "/images/new/Moto-Denim-Jacket-Vintage-Black-2.jpg",
+        "/images/new/Moto-Denim-Jacket-Vintage-Black-3.jpg",
+        "/images/new/Moto-Denim-Jacket-Vintage-Black-4.jpg",
+        "/images/new/Moto-Denim-Jacket-Vintage-Black-5.jpg",
+        "/images/new/Moto-Denim-Jacket-Vintage-Black-6.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "CRISPY POPLIN OVER SHIRT",
+      "price": 375,
+
+      "images": [
+        "/images/new/Crispy-Poplin-Over-Shirt-Red-2.jpg",
+        "/images/new/Crispy-Poplin-Over-Shirt-Red-3.jpg",
+        "/images/new/Crispy-Poplin-Over-Shirt-Red-4.jpg",
+        "/images/new/Crispy-Poplin-Over-Shirt-Red-5.jpg",
+        "/images/new/Crispy-Poplin-Over-Shirt-Red-6.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "FADED HOODED FLANNEL SHIRT",
+      "price": 458,
+
+      "images": [
+        "/images/new/Faded-Hooded-Flannel-Shirt-Washed-Blue-2_e884d60e.jpg",
+        "/images/new/Faded-Hooded-Flannel-Shirt-Washed-Blue-3.jpg",
+        "/images/new/Faded-Hooded-Flannel-Shirt-Washed-Blue-4.jpg",
+        "/images/new/Faded-Hooded-Flannel-Shirt-Washed-Blue-5.jpg",
+        "/images/new/Faded-Hooded-Flannel-Shirt-Washed-Blue-6.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "DESTROYED HOODIE",
+      "price": 678,
+
+      "images": [
+        "/images/new/Destroyed-Hoodie-Vintage-Black-2.jpg",
+        "/images/new/Destroyed-Hoodie-Vintage-Black-3.jpg",
+        "/images/new/Destroyed-Hoodie-Vintage-Black-4.jpg",
+        "/images/new/Destroyed-Hoodie-Vintage-Black-5.jpg",
+        "/images/new/Destroyed-Hoodie-Vintage-Black-6.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "FLEUR DE LIS ALL OVER HOODIE",
+      "price": 1600,
+
+      "images": [
+        "/images/new/Fleur-De-Lis-All-Over-Hoodie-Multi-2.jpg",
+        "/images/new/Fleur-De-Lis-All-Over-Hoodie-Multi-3.jpg",
+        "/images/new/Fleur-De-Lis-All-Over-Hoodie-Multi-4.jpg",
+        "/images/new/Fleur-De-Lis-All-Over-Hoodie-Multi-5.jpg",
+        "/images/new/Fleur-De-Lis-All-Over-Hoodie-Multi-6.jpg",
+        "/images/new/Fleur-De-Lis-All-Over-Hoodie-Multi-7.jpg",
+        "/images/new/Fleur-De-Lis-All-Over-Hoodie-Multi-8.jpg"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "UNSTABLE MOTO SHIRT",
+      "price": 375,
+
+      "images": [
+        "/images/new/Unstable-Moto-Shirt-Mint-Multi-2.jpg",
+        "/images/new/Unstable-Moto-Shirt-Mint-Multi-3.jpg",
+        "/images/new/Unstable-Moto-Shirt-Mint-Multi-4.jpg",
+        "/images/new/Unstable-Moto-Shirt-Mint-Multi-5.jpg",
+        "/images/new/Unstable-Moto-Shirt-Mint-Multi-6.jpg",
+        "/images/new/Unstable-Moto-Shirt-Mint-Multi-7.jpg",
+        "/images/new/Unstable-Moto-Shirt-Mint-Multi-8.jpg"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "CROPPED BOXY STRIPED S/S SHIRT",
+      "price": 395,
+
+      "images": [
+        "/images/new/Cropped-Boxy-Striped-SS-Shirt-Blue-2_128a6b1f.jpg",
+        "/images/new/Cropped-Boxy-Striped-SS-Shirt-Blue-3_021416c3.jpg",
+        "/images/new/Cropped-Boxy-Striped-SS-Shirt-Blue-4_791e811f.jpg",
+        "/images/new/Cropped-Boxy-Striped-SS-Shirt-Blue-5_e179d9af.jpg",
+        "/images/new/Cropped-Boxy-Striped-SS-Shirt-Blue-6_d956c8e4.jpg",
+        "/images/new/Cropped-Boxy-Striped-SS-Shirt-Blue-7_ff1b71f6.jpg"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "MIXED FLANNEL SHIRT",
+      "price": 410,
+
+      "images": [
+        "/images/new/Mixed-Flannel-Shirt-OliveBrown-2_bac22d13.jpg",
+        "/images/new/Mixed-Flannel-Shirt-OliveBrown-3.jpg",
+        "/images/new/Mixed-Flannel-Shirt-OliveBrown-4.jpg",
+        "/images/new/Mixed-Flannel-Shirt-OliveBrown-5.jpg",
+        "/images/new/Mixed-Flannel-Shirt-OliveBrown-6.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "DIAMOND KNIT SHIRT",
+      "price": 460,
+
+      "images": [
+        "/images/new/Diamond-Knit-Shirt-Off-White-2.jpg",
+        "/images/new/Diamond-Knit-Shirt-Off-White-3.jpg",
+        "/images/new/Diamond-Knit-Shirt-Off-White-4.jpg",
+        "/images/new/Diamond-Knit-Shirt-Off-White-5.jpg",
+        "/images/new/Diamond-Knit-Shirt-Off-White-6.jpg"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "ALL OVER BUTTON HOODIE",
+      "price": 450,
+
+      "images": [
+        "/images/new/All-Over-Button-Hoodie-Black-2.jpg",
+        "/images/new/All-Over-Button-Hoodie-Black-3.jpg",
+        "/images/new/All-Over-Button-Hoodie-Black-4.jpg",
+        "/images/new/All-Over-Button-Hoodie-Black-5.jpg",
+        "/images/new/All-Over-Button-Hoodie-Black-6.jpg"
+      ]
+    }
+  ],
+  "denimProducts": [
+    {
+      "id": 31,
+      "title": "ULTRA BAGGY MOTO DENIM",
+      "price": 450,
+
+      "images": [
+        "/images/denim/Ultra-Baggy-Moto-Denim-Off-White-2.jpg",
+        "/images/denim/Ultra-Baggy-Moto-Denim-Off-White-3.jpg",
+        "/images/denim/Ultra-Baggy-Moto-Denim-Off-White-4.jpg",
+        "/images/denim/Ultra-Baggy-Moto-Denim-Off-White-5.jpg",
+        "/images/denim/Ultra-Baggy-Moto-Denim-Off-White-6.jpg",
+        "/images/denim/Ultra-Baggy-Moto-Denim-Off-White-7.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "ULTRA WHITE MOTO DENIM",
+      "price": 450,
+
+      "images": [
+        "/images/denim/Ultra-Baggy-Moto-Denim-Blue-2_6865971f.jpg",
+        "/images/denim/Ultra-Baggy-Moto-Denim-Blue-4.jpg",
+        "/images/denim/Ultra-Baggy-Moto-Denim-Blue-5.jpg",
+        "/images/denim/Ultra-Baggy-Moto-Denim-Blue-6.jpg",
+        "/images/denim/Ultra-Baggy-Moto-Denim-Blue-7.jpg"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "ULTRA BAGGY GRID LOCK DENIM",
+      "price": 425,
+
+      "images": [
+        "/images/denim/Ultra-Baggy-Grid-Lock-Denim-Brown-2.jpg",
+        "/images/denim/Ultra-Baggy-Grid-Lock-Denim-Brown-3.jpg",
+        "/images/denim/Ultra-Baggy-Grid-Lock-Denim-Brown-4.jpg",
+        "/images/denim/Ultra-Baggy-Grid-Lock-Denim-Brown-5.jpg",
+        "/images/denim/Ultra-Baggy-Grid-Lock-Denim-Brown-6.jpg",
+        "/images/denim/Ultra-Baggy-Grid-Lock-Denim-Brown-7.jpg"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "V706 WASHED LEATHER PANTS",
+      "price": 559,
+
+      "images": [
+        "/images/denim/V706-Washed-Leather-Pants-Black-2.jpg",
+        "/images/denim/V706-Washed-Leather-Pants-Black-4.jpg",
+        "/images/denim/V706-Washed-Leather-Pants-Black-5.jpg",
+        "/images/denim/V706-Washed-Leather-Pants-Black-6.jpg",
+        "/images/denim/V706-Washed-Leather-Pants-Black-7.jpg"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "BAGGY ORANGE DUSTED DENIM",
+      "price": 565,
+
+      "images": [
+        "/images/denim/Ultra-Baggy-Orange-Dusted-Denim-Blue-2.jpg",
+        "/images/denim/Ultra-Baggy-Orange-Dusted-Denim-Blue-3.jpg",
+        "/images/denim/Ultra-Baggy-Orange-Dusted-Denim-Blue-4.jpg",
+        "/images/denim/Ultra-Baggy-Orange-Dusted-Denim-Blue-5.jpg",
+        "/images/denim/Ultra-Baggy-Orange-Dusted-Denim-Blue-6.jpg"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "D519 ZIPPER FLARE DENIM",
+      "price": 450,
+
+      "images": [
+        "/images/denim/D519-Zipper-Flare-Denim-Grey-2.jpg",
+        "/images/denim/D519-Zipper-Flare-Denim-Grey-3.jpg",
+        "/images/denim/D519-Zipper-Flare-Denim-Grey-4.jpg",
+        "/images/denim/D519-Zipper-Flare-Denim-Grey-6.jpg",
+        "/images/denim/D519-Zipper-Flare-Denim-Grey-5.jpg",
+        "/images/denim/D519-Zipper-Flare-Denim-Grey-7.jpg"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "DIRTY STAR MAILBAG DENIM",
+      "price": 789,
+
+      "images": [
+        "/images/denim/V720-Dirty-Star-Mailbag-Denim-White-2.jpg",
+        "/images/denim/V720-Dirty-Star-Mailbag-Denim-White-3.jpg",
+        "/images/denim/V720-Dirty-Star-Mailbag-Denim-White-4.jpg",
+        "/images/denim/V720-Dirty-Star-Mailbag-Denim-White-5.jpg",
+        "/images/denim/V720-Dirty-Star-Mailbag-Denim-White-6.jpg",
+        "/images/denim/V720-Dirty-Star-Mailbag-Denim-White-7.jpg",
+        "/images/denim/V720-Dirty-Star-Mailbag-Denim-White-8.jpg"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "BAGGY SKATED CARGO PANTS",
+      "price": 395,
+
+      "images": [
+        "/images/denim/Ultra-Baggy-Skated-Cargo-Pants-BlackWhite-2_26307f8d.jpg",
+        "/images/denim/Ultra-Baggy-Skated-Cargo-Pants-BlackWhite-3_36cb3b02.jpg",
+        "/images/denim/Ultra-Baggy-Skated-Cargo-Pants-BlackWhite-5_67d8023e.jpg",
+        "/images/denim/Ultra-Baggy-Skated-Cargo-Pants-BlackWhite-6_6b7e80ce.jpg",
+        "/images/denim/Ultra-Baggy-Skated-Cargo-Pants-BlackWhite-7_375db7c8.jpg"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "SHEEP HOUNDED DENIM SHORTS",
+      "price": 555,
+
+      "images": [
+        "/images/denim/Sheep-Hounded-Denim-Shorts-Multi-2.jpg",
+        "/images/denim/Sheep-Hounded-Denim-Shorts-Multi-3.jpg",
+        "/images/denim/Sheep-Hounded-Denim-Shorts-Multi-4.jpg",
+        "/images/denim/Sheep-Hounded-Denim-Shorts-Multi-5.jpg",
+        "/images/denim/Sheep-Hounded-Denim-Shorts-Multi-6.jpg",
+        "/images/denim/Sheep-Hounded-Denim-Shorts-Multi-7.jpg"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "WESTERN JEWEL DENIM SHORTS",
+      "price": 620,
+
+      "images": [
+        "/images/denim/Western-Jewel-Denim-Shorts-Blue-2.jpg",
+        "/images/denim/Western-Jewel-Denim-Shorts-Blue-3.jpg",
+        "/images/denim/Western-Jewel-Denim-Shorts-Blue-4.jpg",
+        "/images/denim/Western-Jewel-Denim-Shorts-Blue-5.jpg",
+        "/images/denim/Western-Jewel-Denim-Shorts-Blue-6.jpg",
+        "/images/denim/Western-Jewel-Denim-Shorts-Blue-7.jpg"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "BLACK JEWEL DENIM SHORTS",
+      "price": 620,
+
+      "images": [
+        "/images/denim/Western-Jewel-Denim-Shorts-Washed-Black-2.jpg",
+        "/images/denim/Western-Jewel-Denim-Shorts-Washed-Black-3.jpg",
+        "/images/denim/Western-Jewel-Denim-Shorts-Washed-Black-4.jpg",
+        "/images/denim/Western-Jewel-Denim-Shorts-Washed-Black-5.jpg",
+        "/images/denim/Western-Jewel-Denim-Shorts-Washed-Black-6.jpg",
+        "/images/denim/Western-Jewel-Denim-Shorts-Washed-Black-7.jpg"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "DISTRESSED MINERAL DENIM SHORTS",
+      "price": 495,
+
+      "images": [
+        "/images/denim/Distressed-Mineral-Denim-Shorts-Brown-2.jpg",
+        "/images/denim/Distressed-Mineral-Denim-Shorts-Brown-3.jpg",
+        "/images/denim/Distressed-Mineral-Denim-Shorts-Brown-4.jpg",
+        "/images/denim/Distressed-Mineral-Denim-Shorts-Brown-5.jpg",
+        "/images/denim/Distressed-Mineral-Denim-Shorts-Brown-6.jpg",
+        "/images/denim/Distressed-Mineral-Denim-Shorts-Brown-7.jpg"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "ALLOVER FRAYED DENIM SHORTS",
+      "price": 555,
+
+      "images": [
+        "/images/denim/Allover-Frayed-Denim-Shorts-Blue-2_bff54bbf.jpg",
+        "/images/denim/Allover-Frayed-Denim-Shorts-Blue-3_78940635.jpg",
+        "/images/denim/Allover-Frayed-Denim-Shorts-Blue-4_f2991055.jpg",
+        "/images/denim/Allover-Frayed-Denim-Shorts-Blue-5_7ba08748.jpg",
+        "/images/denim/Allover-Frayed-Denim-Shorts-Blue-6_1fb787cb.jpg",
+        "/images/denim/Allover-Frayed-Denim-Shorts-Blue-7_66193a6e.jpg"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "DISTRESSED SPIDER DENIM SHORTS",
+      "price": 620,
+
+      "images": [
+        "/images/denim/Distressed-Spider-Denim-Shorts-Washed-Black-2.jpg",
+        "/images/denim/Distressed-Spider-Denim-Shorts-Washed-Black-3.jpg",
+        "/images/denim/Distressed-Spider-Denim-Shorts-Washed-Black-4.jpg",
+        "/images/denim/Distressed-Spider-Denim-Shorts-Washed-Black-5.jpg",
+        "/images/denim/Distressed-Spider-Denim-Shorts-Washed-Black-6.jpg",
+        "/images/denim/Distressed-Spider-Denim-Shorts-Washed-Black-7.jpg"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "DISTRESSED SPIDER DENIM SHORTS",
+      "price": 479,
+
+      "images": [
+        "/images/denim/Distressed-Spider-Denim-Shorts-Light-Blue-2.jpg",
+        "/images/denim/Distressed-Spider-Denim-Shorts-Light-Blue-3.jpg",
+        "/images/denim/Distressed-Spider-Denim-Shorts-Light-Blue-4.jpg",
+        "/images/denim/Distressed-Spider-Denim-Shorts-Light-Blue-5.jpg",
+        "/images/denim/Distressed-Spider-Denim-Shorts-Light-Blue-6.jpg",
+        "/images/denim/Distressed-Spider-Denim-Shorts-Light-Blue-7.jpg"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "BAGGY RIPPED DENIM SHORTS",
+      "price": 495,
+
+      "images": [
+        "/images/denim/Baggy-Ripped-Denim-Shorts-Vintage-Blue-2.jpg",
+        "/images/denim/Baggy-Ripped-Denim-Shorts-Vintage-Blue-3.jpg",
+        "/images/denim/Baggy-Ripped-Denim-Shorts-Vintage-Blue-4.jpg",
+        "/images/denim/Baggy-Ripped-Denim-Shorts-Vintage-Blue-5.jpg",
+        "/images/denim/Baggy-Ripped-Denim-Shorts-Vintage-Blue-6.jpg",
+        "/images/denim/Baggy-Ripped-Denim-Shorts-Vintage-Blue-7.jpg"
+      ]
+    }
+  ],
+  "shortsProducts": [
+    {
+      "id": 16,
+      "title": "ULTRA BAGGY BANDANA DENIM",
+      "price": 670,
+
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+      ]
+    }
+  ],
+  "bottomsProducts": [
+    {
+      "id": 16,
+      "title": "ULTRA BAGGY BANDANA DENIM",
+      "price": 670,
+
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+      ]
+    }
+  ],
+  "topsProducts": [
+    {
+      "id": 16,
+      "title": "ULTRA BAGGY BANDANA DENIM",
+      "price": 670,
+
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+      ]
+    }
+  ],
+  "everyDayBasicsProducts": [
+    {
+      "id": 16,
+      "title": "ULTRA BAGGY BANDANA DENIM",
+      "price": 670,
+
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+      ]
+    }
+  ],
+  "outWearProducts": [
+    {
+      "id": 16,
+      "title": "ULTRA BAGGY BANDANA DENIM",
+      "price": 670,
+
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+      ]
+    }
+  ],
+  "accessoriesProducts": [
+    {
+      "id": 16,
+      "title": "ULTRA BAGGY BANDANA DENIM",
+      "price": 670,
+
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+      ]
+    }
+  ],
+  "saleProducts": [
+    {
+      "id": 16,
+      "title": "ULTRA BAGGY BANDANA DENIM",
+      "price": 670,
+
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+      ]
+    }
+  ],
+  "comingSoonProducts": [
+    {
+      "id": 16,
+      "title": "ULTRA BAGGY BANDANA DENIM",
+      "price": 670,
+
+      "images": [
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
+        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+      ]
+    }
+  ]
+}

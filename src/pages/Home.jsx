@@ -9,7 +9,7 @@ import HomePageThirdBannerImage from "../components/HomePageThirdBannerImage";
 import ClothesCollectionThreeHome from "../components/ClothesCollectionThreeHome";
 import MotionWrapper from "../components/MotionWrapper";
 import Wrapper from "../components/Wrapper";
-
+import Footer from "../components/Footer";
 function Home({ showFreeShipping }) {
   return (
     <div>
@@ -29,6 +29,7 @@ function Home({ showFreeShipping }) {
         <HomePageThirdBannerImage />
         <ClothesCollectionThreeHome />
       </MotionWrapper>
+      <Footer />
     </div>
   );
 }
