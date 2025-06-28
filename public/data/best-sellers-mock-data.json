@@ -1398,17 +1398,27 @@
   ],
   "comingSoonProducts": [
     {
-      "id": 16,
-      "title": "ULTRA BAGGY BANDANA DENIM",
-      "price": 670,
+      "id": 109,
+      "title": "BAGGY CARGO PANTS",
+      "price": 555,
 
       "images": [
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-2.jpg",
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-3.jpg",
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-4.jpg",
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-5.jpg",
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-6.jpg",
-        "/images/best-seller/Ultra-Baggy-Bandana-Patch-Denim-Washed-Black-7.jpg"
+        "/images/coming-soon/Ultra-Baggy-Distressed-Cargo-Pants-Woodland-Camo-2.jpg",
+        "/images/coming-soon/Ultra-Baggy-Distressed-Cargo-Pants-Woodland-Camo-3.jpg",
+        "/images/coming-soon/Ultra-Baggy-Distressed-Cargo-Pants-Woodland-Camo-4.jpg",
+        "/images/coming-soon/Ultra-Baggy-Distressed-Cargo-Pants-Woodland-Camo-5.jpg"
+      ]
+    },
+    {
+      "id": 110,
+      "title": "CARPENTER SHORTS",
+      "price": 38,
+
+      "images": [
+        "/images/coming-soon/Ultra-Baggy-Carpenter-Shorts-Washed-Tan-2_eda5ff3d.jpg",
+        "/images/coming-soon/Ultra-Baggy-Carpenter-Shorts-Washed-Tan-3.jpg",
+        "/images/coming-soon/Ultra-Baggy-Carpenter-Shorts-Washed-Tan-4.jpg",
+        "/images/coming-soon/Ultra-Baggy-Carpenter-Shorts-Washed-Tan-5.jpg"
       ]
     }
   ]

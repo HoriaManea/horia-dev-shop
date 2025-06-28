@@ -10,6 +10,7 @@ const navItems = [
   { name: "OUTWEAR", path: "/outwear" },
   { name: "ACCESSORIES", path: "/accessories" },
   { name: "COMING SOON", path: "/coming-soon" },
+  { name: "CONTACT", path: "/contact" },
 ];
 
 const ItemsStyle = styled.div`
