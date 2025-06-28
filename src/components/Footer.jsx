@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const FooterWrapper = styled.footer`
   background-color: #000;
@@ -117,20 +118,33 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <FooterTop>
-        <Logo>Horia.dev
-          
-        </Logo>
+        <Logo>Horia.dev</Logo>
         <FooterColumn>
           <FooterTitle>SHOP</FooterTitle>
-          <FooterLink>new</FooterLink>
-          <FooterLink>denim</FooterLink>
-          <FooterLink>bottoms</FooterLink>
-          <FooterLink>tops</FooterLink>
-          <FooterLink>outerwear</FooterLink>
-          <FooterLink>accessories</FooterLink>
-          <FooterLink>every day basics</FooterLink>
-          <FooterLink>sale</FooterLink>
-          <FooterLink>coming soon</FooterLink>
+          <FooterLink as={Link} to="/best-sellers">
+            best sellers
+          </FooterLink>
+          <FooterLink as={Link} to="/new">
+            new
+          </FooterLink>
+          <FooterLink as={Link} to="/denim">
+            denim
+          </FooterLink>
+          <FooterLink as={Link} to="/shorts">
+            shorts
+          </FooterLink>
+          <FooterLink as={Link} to="/tops">
+            tops
+          </FooterLink>
+          <FooterLink as={Link} to="/outwear">
+            outwear
+          </FooterLink>
+          <FooterLink as={Link} to="/accessories">
+            accessories
+          </FooterLink>
+          <FooterLink as={Link} to="/coming-soon">
+            coming-soon
+          </FooterLink>
         </FooterColumn>
 
         <FooterColumn>
@@ -139,19 +153,19 @@ const Footer = () => {
           <FooterLink>track order</FooterLink>
           <FooterLink>help center</FooterLink>
           <FooterLink>shipping</FooterLink>
+          <FooterLink>acessibility</FooterLink>
           <FooterLink>returns + exchanges</FooterLink>
-          <FooterLink>accessibility</FooterLink>
-          <FooterLink>cookies settings</FooterLink>
-          <FooterLink>terms of sale</FooterLink>
+          <FooterLink>cookies sttings</FooterLink>
           <FooterLink>terms of use</FooterLink>
+          <FooterLink>terms of sale</FooterLink>
           <FooterLink>privacy policy</FooterLink>
         </FooterColumn>
 
         <FooterColumn>
           <FooterTitle>INFO</FooterTitle>
           <FooterLink>our story</FooterLink>
-          <FooterLink>the edit</FooterLink>
           <FooterLink>careers</FooterLink>
+          <FooterLink>the edit</FooterLink>
           <FooterLink>rewards</FooterLink>
         </FooterColumn>
 
