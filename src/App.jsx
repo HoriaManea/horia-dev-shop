@@ -17,6 +17,7 @@ import ScrollProvider from "./components/ScrollProvider";
 import ItemDetalis from "./pages/ItemDetalis";
 import Layout from "./components/Layout";
 import CheckoutPage from "./pages/CheckoutPage";
+import Contact from "./pages/Contact";
 
 export default function App() {
   const [showFreeShipping, setShowFreeShipping] = useState(false);
@@ -51,6 +52,16 @@ export default function App() {
           <Route path="/coming-soon" element={<ComingSoon />} />
           <Route path="/best-sellers/:id" element={<ItemDetalis />} />
           <Route path="/checkout" element={<CheckoutPage />} />
+          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/track_order" element={<TrackOrder />} />
+          <Route path="/help_center" element={<HelpCenter />} />
+          <Route path="/shipping" element={<Shipping />} />
+          <Route path="/accesibillty" element={<Accesibillty />} />
+          <Route path="/returns" element={<Returns />} />
+          <Route path="/cookies" element={<Cookies />} />
+          <Route path="/term_of_use" element={<TermOfUse />} />
+          <Route path="/term_of_sale" element={<TermOfSale />} />
+          <Route path="/privacy_policy" element={<PrivacyPolicy />} /> */}
         </Routes>
       </ScrollProvider>
     </BrowserRouter>
